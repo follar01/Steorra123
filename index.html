@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./output.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>         
+            tailwind.config = {
+                content: ["./src/**/*.{html,js}"],
+                theme: {
+                  extend: {
+                    fontFamily: {
+                      Inter: ["Inter"]
+                    }
+                  },
+                },
+                plugins: [],
+              }
+        </script>
+        <title>Miro | Home</title>
+    </head>
+    <body class=" bg-slate-50 text-slate-700">
+        <nav class="flex justify-between bg-slate-700 text-[#f8fafc]  lg:p-8 md:p-7 p-5 ">
+            <div class="flex gap-5">
+                <img src="./assets/world.png" class="lg:w-[34px] md:w-[32px] w-[28px] lg:h-[34px] md:h-[32px] h-[28px] bg-[#f8fafc] rounded-full mt-2 " alt="">
+                <h1 class="lg:text-[28px] md:text-[26px] text-[24px] font-bold">Steorra Inc.</h1>
+            </div>
+            <ul class="lg:flex md:flex hidden gap-24 text-[18px] ">
+                <li><a href="./index.html" class="font-bold">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            <img src="./assets/h-list.png" class="lg:hidden md:hidden w-[32px] sm:h-[32px] bg-transparent" alt="">
+                </nav>
+    
+        <section class="my-24 lg:mx-12 md:mx-10 mx-8 lg:flex md:flex flex-none gap-12">
+            <div class=" lg:w-[50vw] md:w-[50vw] w-full">
+                <h1 class="font-bold text-[32px]">
+                    Our Company
+                    </h1>
+                    <p class="text-[18px] mt-12">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sunt quaerat! In, et dolorum vel aut magnam eveniet suscipit distinctio id ipsum! Adipisci praesentium non nulla id, tempora cum eveniet possimus assumenda corrupti sunt quidem quae at ratione aut qui sint labore, neque rerum laborum enim deserunt asperiores? Ab, voluptates.
+                        </p>
+                        <div class=" flex justify-normal gap-8 mt-12">
+                            <button class="bg-red-800 text-white rounded-3xl px-10 py-3 hover:bg-yellow-700">Explore</button>
+                            <button class="bg-blue-800 text-white rounded-3xl px-10 py-3 hover:bg-pink-700">Load More</button>
+                            </div>
+                        <div>
+                            <img src="./assets/rating.png" class="lg:w-[400px] md:w-[380px] w-full lg:h-[70px] md:h-[68px] h-[55px] mt-12" alt="">
+                        </div>
+                            </div>
+    
+                            <div class="lg:w-[50vw] md:w-[50vw] w-full lg:mt-0 md:mt-0 mt-12">
+                                <img src="./assets/5558.jpg" class="lg:w-[460px] md:w-[440px] w-[440px] lg:h-[430px] rounded-3xl" alt="">
+                            </div>
+                        </section>
+    
+                        <section class="my-24 lg:mx-12 md:mx-10 mx-8 lg:flex md:flex flex-none gap-12">
+                            <div class="lg:w-[50vw] md:w-[50vw] w-full lg:mt-0 md:mt-0 mt-12">
+                                <img src="./assets/photo-1.jpg" class="lg:w-[460px] md:w-[440px] w-[440px] lg:h-[430px] rounded-3xl" alt="">
+                            </div>
+                            <div class=" lg:w-[50vw] md:w-[50vw] w-full">
+                                <h1 class="font-bold text-[32px]">
+                                    About Us
+                                </h1>
+                                <p class="text-[18px] mt-12">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae animi consectetur dolores impedit neque laboriosam dignissimos minus. Nesciunt eum, dolore explicabo tempora quia dolorum odit eos maxime, quod, exercitationem nobis.
+                                </p>
+                            </div>
+                        </section>
+    
+                        <section class="relative">
+                            <div class="relative">
+                                <img src="./assets/showcase.jpg" alt="Decor" class="w-full h-[500px] object-cover rounded-t-lg">
+                                <div class="absolute inset-0  bg-opacity-50 flex flex-col justify-center items-center rounded-t-lg">
+                                    <h2 class="text-[32px] font-bold text-white my-8">EXPLORE</h2>
+                                    <p class="text-[18px] text-white text-center pb-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <button class="text-[#f8fafc] text-base w-[124px] h-[50px] mt-6 font-Roboto p-2 bg-[#334155] hover:bg-[#f8fafc] hover:text-[#334155] border border-none items-center">VIEW DETAILS</button>
+                                </div>
+                        </section>
+    
+                        <footer class="bg-slate-700 mt-24 py-8 w-full lg:h-[686px] md:h-[680px] h-full">
+            <div class="container mx-auto font-Roboto px-4 grid lg:grid-cols-5 md:grid-cols-5 grid-rows-1">
+              <div>
+                <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Product</h2>
+                <ul class="text-gray-400 space-y-2 mt-12">
+                  <li><a href="#" class="hover:text-white">Online whiteboard</a></li>
+                  <li><a href="#" class="hover:text-white">Apps & Integration</a></li>
+                  <li><a href="#" class="hover:text-white">Templates</a></li>
+                  <li><a href="#" class="hover:text-white">Microverse</a></li>
+                  <li><a href="#" class="hover:text-white">Micro Developer Platform</a></li>
+                  <li><a href="#" class="hover:text-white">Micro for Devices</a></li>
+                  <li><a href="#" class="hover:text-white">Security & Compliance</a></li>
+                  <li><a href="#" class="hover:text-white">Accessibility</a></li>
+                  <li><a href="#" class="hover:text-white">Changelog</a></li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Solutions</h2>
+                <ul class="text-gray-400 space-y-2 mt-12">
+                  <li><a href="#" class="hover:text-white">Meeting & Workshops</a></li>
+                  <li><a href="#" class="hover:text-white">Brainstorming & Ideation</a></li>
+                  <li><a href="#" class="hover:text-white">Agile Workflows</a></li>
+                  <li><a href="#" class="hover:text-white">Diagramming</a></li>
+                  <li><a href="#" class="hover:text-white">Research & Design</a></li>
+                  <li><a href="#" class="hover:text-white">Strategy & Planning</a></li>
+                  <li><a href="#" class="hover:text-white">Mind Map</a></li>
+                  <li><a href="#" class="hover:text-white">Concert Map</a></li>
+                  <li><a href="#" class="hover:text-white">Online Sticky Notes</a></li>
+                  <li><a href="#" class="hover:text-white">Flowchart</a></li>
+                  <li><a href="#" class="hover:text-white">Wireframing</a></li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Resources</h2>
+                <ul class="text-gray-400 space-y-2 mt-12">
+                  <li><a href="#" class="hover:text-white">Micro Academy</a></li>
+                  <li><a href="#" class="hover:text-white">Help Center</a></li>
+                  <li><a href="#" class="hover:text-white">Blog</a></li>
+                  <li><a href="#" class="hover:text-white">Status</a></li>
+                  <li><a href="#" class="hover:text-white">Micro Community</a></li>
+                  <li><a href="#" class="hover:text-white">Micro Professional Network</a></li>
+                  <li><a href="#" class="hover:text-white">Micro Experts Directory</a></li>
+                  <li><a href="#" class="hover:text-white">Micro Events</a></li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Company</h2>
+                <ul class="text-gray-400 space-y-2 mt-12">
+                  <li><a href="#" class="hover:text-white">About Us</a></li>
+                  <li><a href="#" class="hover:text-white">Careers</a></li>
+                  <li><a href="#" class="hover:text-white">Micro in the News</a></li>
+                  <li><a href="#" class="hover:text-white">Customer Stories</a></li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 h-[33px]">Plans & Pricing</h2>
+                <ul class="text-gray-400 space-y-2 lg:mt-12 md:mt-12 mt-6">
+                  <li><a href="#" class="hover:text-white">Pricing</a></li>
+                  <li><a href="#" class="hover:text-white">Business</a></li>
+                  <li><a href="#" class="hover:text-white">Enterprise</a></li>
+                  <li><a href="#" class="hover:text-white">Consultants</a></li>
+                  <li><a href="#" class="hover:text-white">Education</a></li>
+                  <li><a href="#" class="hover:text-white">Startups</a></li>
+                  <li><a href="#" class="hover:text-white">NPONs</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr class="lg:mt-32 md:mt-32 mt-16">
+    
+            <section class="lg:flex md:flex flex-none justify-between mx-12">
+                <div class="lg:flex md:flex flex-none gap-6 pt-10">
+                    <ul class="flex gap-6">
+                        <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/twitter.png" alt=""></a></li>
+                        <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/linkedin.png" alt=""></a></li>
+                        <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/instagram.png" alt=""></a></li>
+                        <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/youtube.png" alt=""></a></li>
+                        <li class=" text-white"><a class="flex gap-4" href="#"><img class="w-[24px] h-[24px] bg-white" src="./assets/world.png" alt="">EN</a></li>
+                    </ul>
+                    <ul class=" flex lg:mt-0 md:mt-0 mt-6 gap-6 text-white">
+                        <li class="lg:text-[16px] md:text-[16px] hidden"><a href="#">© 2024 Miro</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Manage Cookies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <img class="w-[355px] h-[47px] mt-10" src="./assets/playstore.png" alt="">
+                </div>
+            </section>
+        </div>
+        </footer>
+                        </body>
+    </html>
